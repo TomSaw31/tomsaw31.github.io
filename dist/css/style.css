@@ -1267,6 +1267,10 @@ label {
   width: 12.12%;
   height: 16.16%;
   transform: rotateZ(20deg);
+  background-image: url("../images/ut_logo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-figure-box-08 {
@@ -1682,4 +1686,47 @@ main {
     order: 1;
     margin-bottom: 0;
   }
+
+
+  .pdf-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .pdf-modal.active {
+    display: flex;
+  }
+
+  .pdf-modal-content {
+    position: relative;
+    background: #fff;
+    width: 90%;
+    max-width: 1000px;
+    height: 90%;
+    border-radius: 8px;
+    overflow: hidden;
+    padding-top: 40px;
+  }
+
+  .pdf-modal iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .pdf-close {
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    font-size: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
 }
