@@ -1729,4 +1729,21 @@ main {
     cursor: pointer;
   }
 
+  .contact-link {
+      text-decoration: none;
+      color: inherit;
+  }
+  .contact-link:hover {
+      opacity: 0.8;
+  }
+
+  .page-link {
+      text-decoration: none;
+      color: inherit;
+  }
+  .page-link:hover {
+      opacity: 0.8;
+  }
+
+
 }
