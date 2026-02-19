@@ -1744,4 +1744,10 @@ main {
   .page-link:hover {
       opacity: 0.8;
   }
+
+  #about {
+  max-width: 720px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  }
 }
