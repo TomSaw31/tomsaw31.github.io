@@ -1873,4 +1873,41 @@ main {
   .nav-link:hover {
       color: #fff;
   }
+
+  .nav-link, .nav-link:active, .nav-link:visited {
+    text-decoration: none !important;
+    outline: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .custom-tooltip {
+        opacity: 0 !important;
+        visibility: hidden !important;
+        display: none;
+    }
+      
+    .feature:active .custom-tooltip {
+        display: block;
+        opacity: 1 !important;
+        visibility: visible !important;
+        z-index: 999999;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        padding: 10px 0;
+    }
+    .navbar-links {
+        gap: 15px;
+        font-size: 0.8rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
 }
