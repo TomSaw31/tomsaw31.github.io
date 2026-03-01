@@ -1771,7 +1771,7 @@ main {
       color: #fff;
       padding: 15px;
       border-radius: 8px;
-      z-index: 9999;
+      z-index: 9999 !important;
       transition: opacity 0.3s, transform 0.3s;
       pointer-events: none;
       top: 105%;
@@ -1782,6 +1782,7 @@ main {
   .feature:hover .custom-tooltip {
       opacity: 1 !important;
       visibility: visible !important;
+      z-index: 1000000 !important;
   }
 
   .custom-tooltip.is-top {
@@ -1820,5 +1821,56 @@ main {
       min-height: calc(100vh);
       padding-bottom: 200px;
       box-sizing: border-box;
+  }
+  .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #1d252d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999999;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-links {
+      list-style: none;
+      display: flex;
+      gap: 40px;
+      margin: 0;
+      padding: 0;
+  }
+
+  .nav-link {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+      position: relative;
+      padding: 10px 0;
+  }
+
+  .nav-link.active {
+      color: #027dfa !important;
+  }
+
+  .nav-link.active::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background-color: #027dfa;
+  }
+
+  .nav-link:hover {
+      color: #fff;
   }
 }
