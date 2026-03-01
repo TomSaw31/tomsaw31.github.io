@@ -1874,40 +1874,42 @@ main {
       color: #fff;
   }
 
-  .nav-link, .nav-link:active, .nav-link:visited {
+  .nav-link, a {
     text-decoration: none !important;
-    outline: none;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+  @media screen and (max-width: 1024px) {
+      .custom-tooltip {
+          display: none !important;
+          visibility: hidden !important;
+          opacity: 0 !important;
+          pointer-events: none !important;
+          position: absolute !important;
+          left: -9999px !important;
+      }
   }
 
-  a {
-    text-decoration: none;
-  }
-
-  @media (max-width: 768px) {
-    .custom-tooltip {
-        opacity: 0 !important;
-        visibility: hidden !important;
-        display: none;
-    }
-      
-    .feature:active .custom-tooltip {
-        display: block;
-        opacity: 1 !important;
-        visibility: visible !important;
-        z-index: 999999;
-    }
-  }
-
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .navbar {
-        height: auto;
-        padding: 10px 0;
+        position: fixed !important;
+        top: 0 !important;
+        width: 100vw !important;
+        left: 0 !important;
+        right: 0 !important;
+        display: block !important;
+        height: auto !important;
+        padding: 15px 0 !important;
     }
+    
     .navbar-links {
-        gap: 15px;
-        font-size: 0.8rem;
-        flex-wrap: wrap;
-        justify-content: center;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 15px !important;
+        padding: 0 !important;
+        margin: 0 !important;
     }
   }
 }
