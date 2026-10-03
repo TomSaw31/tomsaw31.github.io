@@ -1,0 +1,39 @@
+div, span, p, li, h3, h4 {
+  text-transform: none !important;
+}
+
+div:has(> svg circle),
+.relative.inline-flex:has(svg) {
+  display: none !important;
+}
+
+.relative.inline-flex > .absolute {
+  display: none !important;
+}
+
+section {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+div[class*="resume-biography"] .gap-10,
+div[class*="resume-biography"] .gap-12 {
+  gap: 1.5rem !important;
+}
+
+div[class*="resume-biography"] .space-y-10 > :not([hidden]) ~ :not([hidden]),
+div[class*="resume-biography"] .space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  margin-top: 1.5rem !important;
+}
+
+div[class*="resume-biography"] h3 {
+  margin-bottom: 1rem !important;
+}
+
+.max-w-screen-xl {
+    max-width: 1600px !important;
+}
+
+.max-w-6xl {
+    max-width: 1200px !important; 
+}
