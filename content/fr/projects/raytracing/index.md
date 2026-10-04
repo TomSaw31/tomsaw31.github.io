@@ -1,13 +1,13 @@
 ---
 weight: 50
 
-title: "Ray Tracer in C++"
+title: "Ray Tracer en C++"
 
 # Summary for listing cards
-summary: "Physically based 3D ray tracing renderer developed in C++ from scratch"
+summary: "Ray Tracer 3D développé en C++ à partir de zéro."
 # Tags for filtering
 tags:
-  - Computer Graphics
+  - Informatique Graphique
   - Raytracing
   - C++
 

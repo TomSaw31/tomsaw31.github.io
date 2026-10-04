@@ -1,15 +1,15 @@
 ---
 weight: 30
 
-title: "Motion Tracking for piano detection"
+title: "Détection de mouvements pour le jeu au piano"
 
 # Summary for listing cards
-summary: "Motion Tracking pipeline to detect and follow hand while playing the piano."
+summary: "Suivi de mouvements pour détecter et suivre des mains jouant au piano."
 
 # Tags for filtering
 tags:
-  - Machine Learning
-  - Data Science
+  - Apprentissage Automatique
+  - Science des Données
   - Python
 
 # Featured image

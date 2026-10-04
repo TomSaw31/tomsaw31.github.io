@@ -1,15 +1,15 @@
 ---
 weight: 40
 
-title: "Fourier transform for image compression"
+title: "Transformées de Fourier pour la compression d'images"
 
 # Summary for listing cards
-summary: "Study and implementation of the Discrete Fourier Transform with applications to image spectrum analysis and JPEG compression."
+summary: "Etude et implémentation de la Transformée de Fourier Discrètes avec applications à l'analyse spectrale d'images et à la compression JPEG."
 
 # Tags for filtering
 tags:
-  - Signal Processing
-  - Image Compression
+  - Traitement du Signal
+  - Compression d'Images
   - Python
 
 # Featured image

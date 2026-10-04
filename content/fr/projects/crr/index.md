@@ -1,15 +1,15 @@
 ---
 weight: 60
 
-title: "Cox-Ross-Rubinstein Model for Option Pricing"
+title: "Modèle de Cox-Ross-Rubinstein pour la valuation d'options"
 
 # Summary for listing cards
-summary: "A self-directed introduction to quantitative finance through the binomial model, from no-arbitrage theory to a C++ implementation (work in progress)."
+summary: "Une introduction en autodidacte à la finance quantitative à travers l'étude et l'implémentation du modèle binomial (en cours)."
 
 # Tags for filtering
 tags:
   - Finance
-  - Option Pricing
+  - Vluation d'Options
   - C++
 
 # Featured image

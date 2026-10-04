@@ -7,7 +7,6 @@ name:
   family: Saurel
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
 # postnominals:
 #  - PhD
 #  - MIEEE
@@ -15,8 +14,8 @@ status:
   icon: "🖥️"
 role: ENSIMAG engineering student
 bio: |
-  I am a second-year student at ENSIMAG, currently in the second year of the engineering program (Master's level),
-  specializing in Computer Science, Applied Mathematics and Finance. I enjoy working on low-level programming, mathematics, and computation,
+  I am a second-year student of the engineering cycle at Grenoble INP - ENSIMAG,
+  specializing in Computer Science, Applied Mathematics and Finance. I enjoy working on low-level programming and mathematics
   with particular interests in quantitative finance, artificial intelligence and computer graphics.
 
 affiliations:

@@ -1,16 +1,16 @@
 ---
 weight: 10
 
-title: "Theoretical study of curve length"
+title: "Etude théoriques de longueurs de courbes"
 
 # Summary for listing cards
-summary: "A rigorous study of arc length, from the definition of a rectifiable curve to ellipses and geodesics."
+summary: "Une étude rigoureuse de la longueur d'arc, de la définition d'une courbe rectifiable à l'étude d'ellipses et géodésiques."
 
 # Tags for filtering
 tags:
-  - Calculus
-  - Geodesics
-  - Arc length
+  - Analyse
+  - Geodesiques
+  - Longueur d'Arcs
 
 # Featured image
 image:

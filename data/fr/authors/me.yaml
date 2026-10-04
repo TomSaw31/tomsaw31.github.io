@@ -1,0 +1,107 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Thomas Saurel
+  given: Thomas
+  family: Saurel
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+# postnominals:
+#  - PhD
+#  - MIEEE
+status:
+  icon: "🖥️"
+role: Etudiant en Ingénierie à l'ENSIMAG
+bio: |
+  Je suis un étudiant en deuxième année du cycle ingénieur au sein de l'école Grenoble INP - ENSIMAG, 
+  spécialisé en Informatique, Mathématiques appliquées et Finance. J'aime travailler sur de la programmation bas niveau et les mathématiques
+  appliquées avec un intérêt particulier pour la finance quantitative, l'intelligence artificielle et l'informatique graphique.
+
+affiliations:
+  - name: Grenoble INP - Ensimag
+    url: https://ensimag.grenoble-inp.fr
+
+links:
+  - icon: at-symbol
+    url: mailto:thomas.saurel05@gmail.com
+    label: E-mail Me
+  # - icon: brands/x
+    # url: https://x.com/example
+  - icon: brands/github
+    url: https://github.com/TomSaw31
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/thomas-saurel/
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/citations?user=example
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
+
+interests:
+  - Intelligence Artificielle
+  - Finance Quantitative
+  - Mathématiques Appliquées
+  - Informatique Graphique
+
+education:
+  - degree: Diplôme d'Ingénieur en Mathématiques Appliquées, Informatique et Finance
+    institution: ENSIMAG
+    start: 2026-09
+    end: Présent
+    summary: |
+      Parcours: Fondamentaux et Technologies Innovantes pour la Finance<br>
+      Double diplôme prévu en 2027 : Master en Finance Quantitative
+  - degree: Double Licence Informatique - Mathématiques
+    institution: Université de Toulouse
+    start: 2023-09
+    end: 2026-07
+    summary: |
+      Double diplôme interdisciplinaire combinant les mathématiques et l'informatique en mettant fortement l'accent sur les probabilités, les statistiques et l'intelligence artificielle.
+
+# experience:
+#   - role: Senior AI Research Scientist
+#     org: Meta AI
+#     start: 2020-01-01
+#     summary: |
+#       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+#     button:
+#       text: View portfolio
+#       url: /
+#       icon: hero/arrow-down-tray
+#   - role: AI Research Intern
+#     org: OpenAI
+#     start: 2019-06-01
+#     end: 2019-12-31
+#     summary: |
+#       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+
+skills:
+  - name: Programmation
+    items:
+      - label: C / C++ / Python / Java / SQL
+      - label: OpenMP / Parallélisation
+      - label: Linux / Unix
+      - label: Git / Github
+  - name: Mathématiques Appliquées
+    items:
+      - label: Statistiques
+      - label: Probabilités
+      - label: Algèbre Linéaire
+      - label: Apprentissage Automatique
+
+languages:
+  - name: Français
+    label: Natif
+  - name: Anglais
+    label: Courant
+  - name: Espagnol
+    label: Intermédiaire
+  - name: Japonais
+    label: Débutant
+
+# awards:
+#   - title: Best Paper Award
+#     awarder: NeurIPS
+#     date: "2022-12-01"
+#     summary: Awarded for groundbreaking work on efficient training of large models.
+#     icon: hero/trophy

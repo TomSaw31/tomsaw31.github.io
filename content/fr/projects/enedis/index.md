@@ -4,12 +4,12 @@ weight: 20
 title: "Challenge Data Enedis"
 
 # Summary for listing cards
-summary: "A team entry to the Enedis Data Challenge reconstructing missing values in synthetic Linky load curves, ranked 13th with a MAE of 79.15 against 104.54 for the linear-interpolation benchmark"
+summary: "Le travail produit en duo dans le cadre du Enedis Data Challenge où il fallait reconstruire des valeurs manquantes de consommation de compteurs Linky."
 
 # Tags for filtering
 tags:
-  - Machine Learning
-  - Time Series Imputation
+  - Apprentissage Automatique
+  - Imputation de Séries Temporelles
   - Python
 
 # Featured image
